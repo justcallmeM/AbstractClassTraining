@@ -21,9 +21,6 @@ namespace AbstractClassTraining
             foreach (var db in databases)
             {
                 Console.WriteLine(db.LoadConnectionString("demo"));
-                //db.LoadConnectionString("demo");
-                //db.LoadData("select * from table");
-                //db.SaveData("insert into table");
                 Console.WriteLine();
             }
 
